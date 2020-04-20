@@ -34,6 +34,9 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 # Partitions
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 67108864
 
+# Power
+TARGET_TAP_TO_WAKE_NODE := "/dev/input/event2"
+
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
