@@ -47,10 +47,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     fstab.qcom
 
-# Device init scripts
-PRODUCT_PACKAGES += \
-    init.target.rc
-
 # GPS
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/gps/flp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/flp.conf \
