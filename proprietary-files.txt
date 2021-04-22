@@ -1,4 +1,4 @@
-# Device proprietary files - from beryllium's MIUI package V12.0.3.0.QEJMIXM global stable version
+# Device proprietary files - from beryllium's MIUI package V11.0.8.0.QEJMIXM global stable version
 
 # ACDB
 vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
@@ -183,26 +183,27 @@ vendor/etc/hdr_config.cfg
 vendor/etc/sdr_config.cfg
 
 # Fingerprint
-vendor/lib64/hw/fingerprint.fpc.so:vendor/lib64/hw/fingerprint.fpc.sdm845.so
-vendor/lib64/hw/fingerprint.goodix.so:vendor/lib64/hw/fingerprint.goodix.sdm845.so
+vendor/lib64/hw/fingerprint.fpc.so
+vendor/lib64/hw/fingerprint.goodix.so
 vendor/lib64/com.fingerprints.extension@1.0.so
 vendor/lib64/libgf_ca.so
 vendor/lib64/libgf_hal.so
 vendor/lib64/vendor.goodix.hardware.fingerprintextension@1.0.so
 
 # FM
-lib64/fm_helium.so
-lib64/libfm-hci.so
-lib/fm_helium.so
-lib/libfm-hci.so
--product/lib64/vendor.qti.hardware.fm@1.0.so
--product/lib/vendor.qti.hardware.fm@1.0.so
+system_ext/lib64/fm_helium.so
+system_ext/lib64/libfm-hci.so
+system_ext/lib/fm_helium.so
+system_ext/lib/libfm-hci.so
+-system_ext/lib64/vendor.qti.hardware.fm@1.0.so
+-system_ext/lib/vendor.qti.hardware.fm@1.0.so
 vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.fm@1.0.so
 vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so
 vendor/lib/vendor.qti.hardware.fm@1.0.so
 
 # GNSS
+-vendor/app/CACertService/CACertService.apk
 vendor/bin/hw/android.hardware.gnss@2.0-service-qti
 vendor/bin/loc_launcher
 vendor/bin/lowi-server
@@ -249,6 +250,7 @@ vendor/lib64/vendor.qti.gnss@2.0.so
 vendor/lib64/vendor.qti.gnss@2.1.so
 vendor/lib64/vendor.qti.gnss@3.0.so
 vendor/lib64/vendor.qti.gnss@3.0-service.so
+vendor/lib64/vendor.qti.hardware.cacert@1.0.so
 vendor/lib/hw/android.hardware.gnss@2.0-impl-qti.so
 vendor/lib/hw/vendor.qti.gnss@3.0-impl.so
 vendor/lib/libaoa.so
@@ -281,6 +283,11 @@ vendor/lib/vendor.qti.gnss@2.0.so
 vendor/lib/vendor.qti.gnss@2.1.so
 vendor/lib/vendor.qti.gnss@3.0.so
 vendor/lib/vendor.qti.gnss@3.0-service.so
+vendor/lib/vendor.qti.hardware.cacert@1.0.so
+
+# Hotword enrollment
+-product/priv-app/HotwordEnrollmentOKGoogleWCD9340/HotwordEnrollmentOKGoogleWCD9340.apk;PRESIGNED
+-product/priv-app/HotwordEnrollmentXGoogleWCD9340/HotwordEnrollmentXGoogleWCD9340.apk;PRESIGNED
 
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@3.0-service-qti
@@ -342,18 +349,18 @@ vendor/etc/sensors/hals.conf
 vendor/etc/sensors/sns_reg_config
 
 # Thermal configs
-vendor/etc/thermal-engine-sdm845-arvr.conf
-vendor/etc/thermal-engine-sdm845-camera.conf
-vendor/etc/thermal-engine-sdm845-class0.conf
-vendor/etc/thermal-engine-sdm845-e10-india.conf
-vendor/etc/thermal-engine-sdm845-extreme.conf
-vendor/etc/thermal-engine-sdm845-map.conf
-vendor/etc/thermal-engine-sdm845-nolimits.conf
-vendor/etc/thermal-engine-sdm845-pubgmhd.conf
-vendor/etc/thermal-engine-sdm845-sgame.conf
-vendor/etc/thermal-engine-sdm845-tgame.conf
-vendor/etc/thermal-engine-sdm845.conf
-vendor/etc/thermal-engine.conf
+#vendor/etc/thermal-engine-sdm845-arvr.conf
+#vendor/etc/thermal-engine-sdm845-camera.conf
+#vendor/etc/thermal-engine-sdm845-class0.conf
+#vendor/etc/thermal-engine-sdm845-e10-india.conf
+#vendor/etc/thermal-engine-sdm845-extreme.conf
+#vendor/etc/thermal-engine-sdm845-map.conf
+#vendor/etc/thermal-engine-sdm845-nolimits.conf
+#vendor/etc/thermal-engine-sdm845-pubgmhd.conf
+#vendor/etc/thermal-engine-sdm845-sgame.conf
+#vendor/etc/thermal-engine-sdm845-tgame.conf
+#vendor/etc/thermal-engine-sdm845.conf
+#vendor/etc/thermal-engine.conf
 
 # Widevine DRM L1 support
 vendor/lib64/libhdcpsrm.so

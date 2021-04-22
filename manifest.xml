@@ -60,7 +60,7 @@
             <name>IPictureAdjustment</name>
             <instance>default</instance>
         </interface>
-    </hal>
+    </hal>    
     <hal format="hidl">
         <name>vendor.qti.gnss</name>
         <transport>hwbinder</transport>
